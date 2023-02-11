@@ -1,10 +1,21 @@
-import "./styles.css";
+import React from "react";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import Main from "./Main";
+import Subway from "./Subway";
 
-export default function App() {
+const App = () => {
   return (
     <div className="App">
-      <h1>Hello CodeSandbox</h1>
-      <h2>Start editing to see some magic happen!</h2>
+      <Router>
+        <div>
+          <Routes>
+            <Route path="/Subway" element={<Subway />} />
+            <Route path="/" element={<Main />} />
+          </Routes>
+        </div>
+      </Router>
     </div>
   );
-}
+};
+
+export default App;
