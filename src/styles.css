@@ -1,4 +1,21 @@
 .App {
   font-family: sans-serif;
   text-align: center;
+  line-height: 400%;
+}
+.Subway {
+  margin: auto;
+  text-align: left;
+  line-height: 200%;
+}
+#btn {
+  width: 200px;
+  height: 100px;
+  border: solid 2px;
+  border-color: white;
+  border-radius: 40px;
+  border-top-right-radius: 4em; 
+  background: #1E90FF;
+  color: white;
+  font-size: 30px;
 }
