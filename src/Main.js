@@ -2,7 +2,7 @@ import React from "react";
 function Main() {
   //
   function click() {
-    window.location.replace("Subway.html");
+    window.location.replace("/Subway");
   }
   return (
     <div>
