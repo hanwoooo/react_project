@@ -4,9 +4,13 @@
   line-height: 400%;
 }
 .Subway {
-  margin: auto;
   text-align: left;
   line-height: 200%;
+}
+#img {
+  margin: auto;
+  position: absolute;
+  left: 300px;
 }
 #btn {
   width: 200px;
@@ -14,8 +18,45 @@
   border: solid 2px;
   border-color: white;
   border-radius: 40px;
-  border-top-right-radius: 4em; 
-  background: #1E90FF;
+  border-top-right-radius: 4em;
+  background: #1e90ff;
   color: white;
   font-size: 30px;
+}
+
+/* 각 input의 value들은 나중에 백엔드 하고 나면 넣을 예정 */
+#start {
+  position: absolute;
+  top: 50px;
+  left: 95px;
+  width: 100px;
+  height: 32px;
+}
+#end {
+  position: absolute;
+  top : 100px;
+  left: 95px;
+  width: 100px;
+  height: 32px;
+}
+#time {
+  position: absolute;
+  top : 205px;
+  left: 120px;
+  width: 100px;
+  height: 32px;
+}
+#money {
+  position: absolute;
+  top : 255px;
+  left: 120px;
+  width: 100px;
+  height: 32px;
+}
+#change {
+  position: absolute;
+  top : 305px;
+  left: 120px;
+  width: 100px;
+  height: 32px;
 }
