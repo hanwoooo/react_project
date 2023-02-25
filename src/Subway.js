@@ -4,7 +4,7 @@ import "./styles.css";
 function Subway() {
   return (
     <div>
-      <img id="img" src={image} />
+      <img id="img" src={image} alt="profile" />
       <div className="Subway">
         <h2>
           <br />
